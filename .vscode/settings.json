@@ -1,0 +1,15 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#caebb5",
+    "tab.activeBorder": "#caebb5",
+    "titleBar.activeBackground": "#ade08d",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.border": "#ade08d",
+    "titleBar.inactiveBackground": "#ade08d99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#ade08d"
+}
