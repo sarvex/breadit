@@ -11,5 +11,6 @@
     "titleBar.inactiveBackground": "#ade08d99",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#ade08d"
+  "peacock.color": "#ade08d",
+  "sarif-viewer.connectToGithubCodeScanning": "on"
 }
