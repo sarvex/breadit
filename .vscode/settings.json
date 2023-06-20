@@ -12,5 +12,8 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.color": "#ade08d",
-  "sarif-viewer.connectToGithubCodeScanning": "on"
+  "sarif-viewer.connectToGithubCodeScanning": "on",
+  "cSpell.words": [
+    "Breadit"
+  ]
 }
