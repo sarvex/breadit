@@ -81,8 +81,8 @@ dependencies:
     specifier: 18.2.7
     version: 18.2.7
   '@uploadthing/react':
-    specifier: 5.2.1
-    version: 5.2.1(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.3.2)(zod@3.22.1)
+    specifier: 5.3.0
+    version: 5.3.0(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.3.2)(zod@3.22.1)
   '@upstash/redis':
     specifier: 1.22.0
     version: 1.22.0
@@ -1472,8 +1472,8 @@ packages:
     resolution: {integrity: sha512-nRcdyM622+GYT9SdaJIVLknqoc8i7krItinfuBPtvmPc+UNGDJ+pMkr4AatYp88cEc4iYtPlN8flJvZ3dNtgrg==}
     dev: false
 
-  /@uploadthing/react@5.2.1(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.3.2)(zod@3.22.1):
-    resolution: {integrity: sha512-fYvNpX4V7YLqzs6sK43zWlVYiS7OrpCU+6O3is2bVPRWvfanBlLGnl7cEl1GuQD7g07GKQVBDhVeLjX7H3zvsg==}
+  /@uploadthing/react@5.3.0(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.3.2)(zod@3.22.1):
+    resolution: {integrity: sha512-B/LowwhOgcU/VBdxueF6dzHFoXNt4oLKDp6GOjMpHATHzWQ+eOlWM32f7NOpgQ0i5/vJPpilZ46OazccnEam6g==}
     peerDependencies:
       react: ^17.0.2 || ^18.0.0
       react-dropzone: ^14.2.3
@@ -1482,6 +1482,7 @@ packages:
       '@uploadthing/shared': 5.2.0(@uploadthing/mime-types@0.2.0)(zod@3.22.1)
       react: 18.2.0
       react-dropzone: 14.2.3(react@18.2.0)
+      tailwind-merge: 1.14.0
       uploadthing: 5.3.2(zod@3.22.1)
     transitivePeerDependencies:
       - '@uploadthing/mime-types'
