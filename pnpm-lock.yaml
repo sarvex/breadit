@@ -82,7 +82,7 @@ dependencies:
     version: 18.2.7
   '@uploadthing/react':
     specifier: 5.4.0
-    version: 5.4.0(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.4.0)(zod@3.22.2)
+    version: 5.4.0(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.5.0)(zod@3.22.2)
   '@upstash/redis':
     specifier: 1.22.0
     version: 1.22.0
@@ -168,8 +168,8 @@ dependencies:
     specifier: 5.2.2
     version: 5.2.2
   uploadthing:
-    specifier: 5.4.0
-    version: 5.4.0(zod@3.22.2)
+    specifier: 5.5.0
+    version: 5.5.0(zod@3.22.2)
   zod:
     specifier: 3.22.2
     version: 3.22.2
@@ -1472,7 +1472,7 @@ packages:
     resolution: {integrity: sha512-UDySsPbdi7wp52WG7mp5CiZwaTvokDubqhm1xhFm73Bqhp0PsGbwSSF5PdCXH4fe8Y4EKGrMyWQ4i1fF9+DVVQ==}
     dev: false
 
-  /@uploadthing/react@5.4.0(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.4.0)(zod@3.22.2):
+  /@uploadthing/react@5.4.0(react-dropzone@14.2.3)(react@18.2.0)(uploadthing@5.5.0)(zod@3.22.2):
     resolution: {integrity: sha512-nBu8Eg9vCaLtv+NM6+PwlU0cYuX63mJZFlPJ09sNBFkCli7d2VKr43S72xE9205rgxm5/SOPIOam442kM+2nsg==}
     peerDependencies:
       react: ^17.0.2 || ^18.0.0
@@ -1483,7 +1483,7 @@ packages:
       react: 18.2.0
       react-dropzone: 14.2.3(react@18.2.0)
       tailwind-merge: 1.14.0
-      uploadthing: 5.4.0(zod@3.22.2)
+      uploadthing: 5.5.0(zod@3.22.2)
     transitivePeerDependencies:
       - '@uploadthing/mime-types'
       - zod
@@ -4463,8 +4463,8 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /uploadthing@5.4.0(zod@3.22.2):
-    resolution: {integrity: sha512-JTOopJ686gvZAdPTyB+40vFL2LhoQlx+uSqx6fWzM4EjvPgQQLkMdFh/aBq0/1xmv1YjFs324kJy6fsqMj3ULg==}
+  /uploadthing@5.5.0(zod@3.22.2):
+    resolution: {integrity: sha512-QwngAsKSbjofRoHaMYEBFRs00N3GXlFjhsNVll3usRntkltOmqkoIiXUhxGfoaC/U2uG76mC+1xwnj1cNSPCMg==}
     dependencies:
       '@uploadthing/mime-types': 0.2.1
       '@uploadthing/shared': 5.2.1(@uploadthing/mime-types@0.2.1)(zod@3.22.2)
