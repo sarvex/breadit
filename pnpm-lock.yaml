@@ -72,8 +72,8 @@ dependencies:
     specifier: 4.35.3
     version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
-    specifier: 20.6.3
-    version: 20.6.3
+    specifier: 20.6.4
+    version: 20.6.4
   '@types/react':
     specifier: 18.2.22
     version: 18.2.22
@@ -176,8 +176,8 @@ dependencies:
 
 devDependencies:
   '@types/editorjs__header':
-    specifier: 2.6.0
-    version: 2.6.0
+    specifier: 2.6.1
+    version: 2.6.1
   '@types/lodash.debounce':
     specifier: 4.0.7
     version: 4.0.7
@@ -1362,8 +1362,8 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@types/editorjs__header@2.6.0:
-    resolution: {integrity: sha512-J9TyO/BjNVddi+syyXpvMRMtVz5Z62pwmFKynWsgP+wnJYdWF8ABqgomokIsAvuEwH5NHa/YxsTltYcPPGCRRQ==}
+  /@types/editorjs__header@2.6.1:
+    resolution: {integrity: sha512-gsWqbLejBuUJzU5HMnckr8+FTsp8st9F/KdkMoIE+vL7cyeEGDYrIPtEZs431BSmGHt8W05Pt9GuQsa/Zrjj+w==}
     dev: true
 
   /@types/json5@0.0.29:
@@ -1380,8 +1380,8 @@ packages:
     resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
     dev: true
 
-  /@types/node@20.6.3:
-    resolution: {integrity: sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==}
+  /@types/node@20.6.4:
+    resolution: {integrity: sha512-nU6d9MPY0NBUMiE/nXd2IIoC4OLvsLpwAjheoAeuzgvDZA1Cb10QYg+91AF6zQiKWRN5i1m07x6sMe0niBznoQ==}
     dev: false
 
   /@types/prop-types@15.7.5:
