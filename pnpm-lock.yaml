@@ -72,8 +72,8 @@ dependencies:
     specifier: 4.35.3
     version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
-    specifier: 20.6.4
-    version: 20.6.4
+    specifier: 20.7.0
+    version: 20.7.0
   '@types/react':
     specifier: 18.2.22
     version: 18.2.22
@@ -1380,8 +1380,8 @@ packages:
     resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
     dev: true
 
-  /@types/node@20.6.4:
-    resolution: {integrity: sha512-nU6d9MPY0NBUMiE/nXd2IIoC4OLvsLpwAjheoAeuzgvDZA1Cb10QYg+91AF6zQiKWRN5i1m07x6sMe0niBznoQ==}
+  /@types/node@20.7.0:
+    resolution: {integrity: sha512-zI22/pJW2wUZOVyguFaUL1HABdmSVxpXrzIqkjsHmyUjNhPoWM1CKfvVuXfetHhIok4RY573cqS0mZ1SJEnoTg==}
     dev: false
 
   /@types/prop-types@15.7.5:
