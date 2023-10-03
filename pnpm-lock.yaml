@@ -82,7 +82,7 @@ dependencies:
     version: 18.2.8
   '@uploadthing/react':
     specifier: 5.6.1
-    version: 5.6.1(next@13.5.3)(react@18.2.0)(uploadthing@5.6.1)(zod@3.22.2)
+    version: 5.6.1(next@13.5.3)(react@18.2.0)(uploadthing@5.7.0)(zod@3.22.2)
   '@upstash/redis':
     specifier: 1.22.1
     version: 1.22.1
@@ -168,8 +168,8 @@ dependencies:
     specifier: 5.2.2
     version: 5.2.2
   uploadthing:
-    specifier: 5.6.1
-    version: 5.6.1(zod@3.22.2)
+    specifier: 5.7.0
+    version: 5.7.0(zod@3.22.2)
   zod:
     specifier: 3.22.2
     version: 3.22.2
@@ -1472,7 +1472,7 @@ packages:
     resolution: {integrity: sha512-UDySsPbdi7wp52WG7mp5CiZwaTvokDubqhm1xhFm73Bqhp0PsGbwSSF5PdCXH4fe8Y4EKGrMyWQ4i1fF9+DVVQ==}
     dev: false
 
-  /@uploadthing/react@5.6.1(next@13.5.3)(react@18.2.0)(uploadthing@5.6.1)(zod@3.22.2):
+  /@uploadthing/react@5.6.1(next@13.5.3)(react@18.2.0)(uploadthing@5.7.0)(zod@3.22.2):
     resolution: {integrity: sha512-uVd4I26OudpUcikobDFBMl9mG0vlhdXmK57oidCIrvfgNfKZOehpW+pqe1nUWE8HoYquJ1iK4OrmrfX8hOK2MA==}
     peerDependencies:
       next: '*'
@@ -1482,20 +1482,32 @@ packages:
       next:
         optional: true
     dependencies:
-      '@uploadthing/shared': 5.2.2(@uploadthing/mime-types@0.2.1)(zod@3.22.2)
+      '@uploadthing/shared': 5.2.2(zod@3.22.2)
       attr-accept: 2.2.2
       file-selector: 0.6.0
       next: 13.5.3(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       tailwind-merge: 1.14.0
-      uploadthing: 5.6.1(zod@3.22.2)
+      uploadthing: 5.7.0(zod@3.22.2)
     transitivePeerDependencies:
       - '@uploadthing/mime-types'
       - zod
     dev: false
 
-  /@uploadthing/shared@5.2.2(@uploadthing/mime-types@0.2.1)(zod@3.22.2):
+  /@uploadthing/shared@5.2.2(zod@3.22.2):
     resolution: {integrity: sha512-OxNXcL91BSyKhZ+j0N5ekFRpCTwWsAf8B1FzL1YePTrNhMA0ZdlYqsObMAr7/jeWTc/mGaRRV1zUL4HBevnE3Q==}
+    peerDependencies:
+      '@uploadthing/mime-types': ^0.2.0
+      zod: ^3.21.4
+    peerDependenciesMeta:
+      '@uploadthing/mime-types':
+        optional: true
+    dependencies:
+      zod: 3.22.2
+    dev: false
+
+  /@uploadthing/shared@5.2.3(@uploadthing/mime-types@0.2.1)(zod@3.22.2):
+    resolution: {integrity: sha512-45GEYfiP7ziLHtE3Tbb+X5FayNOgTstPIxNydbo9D33ZOWtqJknA9KNaSB8JpuEONGVbXjAfNNYkOUVXwb8dAQ==}
     peerDependencies:
       '@uploadthing/mime-types': ^0.2.0
       zod: ^3.21.4
@@ -4654,11 +4666,12 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /uploadthing@5.6.1(zod@3.22.2):
-    resolution: {integrity: sha512-lWVMCoAmZ33mahV6NS7oW+eQl++jnYEuaR3zh9PlrEt6P8lkl3GPDUE5iWywBx+pK9HewIqZvaZXQvzKOjOlMg==}
+  /uploadthing@5.7.0(zod@3.22.2):
+    resolution: {integrity: sha512-x24qDWz7L4XQvWCFujzhguWW0tqh3j3QCQUOVpPHUMM5nv3aeJkVMQYURsAJydiBtMgiAGo7HnzEZLiPJSozXw==}
+    engines: {node: '>=18.13.0'}
     dependencies:
       '@uploadthing/mime-types': 0.2.1
-      '@uploadthing/shared': 5.2.2(@uploadthing/mime-types@0.2.1)(zod@3.22.2)
+      '@uploadthing/shared': 5.2.3(@uploadthing/mime-types@0.2.1)(zod@3.22.2)
     transitivePeerDependencies:
       - zod
     dev: false
