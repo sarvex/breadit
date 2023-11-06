@@ -69,8 +69,8 @@ dependencies:
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.3.5)
   '@tanstack/react-query':
-    specifier: 5.7.0
-    version: 5.7.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 5.7.2
+    version: 5.7.2(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
     specifier: 20.8.10
     version: 20.8.10
@@ -120,8 +120,8 @@ dependencies:
     specifier: 0.292.0
     version: 0.292.0(react@18.2.0)
   nanoid:
-    specifier: 5.0.2
-    version: 5.0.2
+    specifier: 5.0.3
+    version: 5.0.3
   next:
     specifier: 14.0.1
     version: 14.0.1(react-dom@18.2.0)(react@18.2.0)
@@ -1347,12 +1347,12 @@ packages:
       tailwindcss: 3.3.5
     dev: false
 
-  /@tanstack/query-core@5.4.3:
-    resolution: {integrity: sha512-fnI9ORjcuLGm1sNrKatKIosRQUpuqcD4SV7RqRSVmj8JSicX2aoMyKryHEBpVQvf6N4PaBVgBxQomjsbsGPssQ==}
+  /@tanstack/query-core@5.7.2:
+    resolution: {integrity: sha512-vPYoNCOI8W+jFLnyEAYQL7/qURE7XzVE/TvkmNSko8LU55jFshee342p4GNFOTsYFgJty7Da5bw4m2P3vaKWMw==}
     dev: false
 
-  /@tanstack/react-query@5.7.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-f6F9OdW4MC0bwlYPXop114ngkkZtg650TeJpR2/ME9q/iJ/59dg2+LoGHEdHk2w1mNAdiuiPFYzCcl2WNkFiiw==}
+  /@tanstack/react-query@5.7.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-NMsfz0Wd3VPDvSpX9sw2x07r0kf9HwuAlNNHQvwMUHM7EcuVN/LYmlmTe40dWER1c/92Jhc5LODdtW0PyvHsFg==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -1363,7 +1363,7 @@ packages:
       react-native:
         optional: true
     dependencies:
-      '@tanstack/query-core': 5.4.3
+      '@tanstack/query-core': 5.7.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -3413,8 +3413,8 @@ packages:
     hasBin: true
     dev: false
 
-  /nanoid@5.0.2:
-    resolution: {integrity: sha512-2ustYUX1R2rL/Br5B/FMhi8d5/QzvkJ912rBYxskcpu0myTHzSZfTr1LAS2Sm7jxRUObRrSBFoyzwAhL49aVSg==}
+  /nanoid@5.0.3:
+    resolution: {integrity: sha512-I7X2b22cxA4LIHXPSqbBCEQSL+1wv8TuoefejsX4HFWyC6jc5JG7CEaxOltiKjc1M+YCS2YkrZZcj4+dytw9GA==}
     engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
