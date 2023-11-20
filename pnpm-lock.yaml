@@ -81,8 +81,8 @@ dependencies:
     specifier: 18.2.15
     version: 18.2.15
   '@uploadthing/react':
-    specifier: 6.0.0
-    version: 6.0.0(next@14.0.3)(react@18.2.0)(uploadthing@6.0.1)
+    specifier: 6.0.1
+    version: 6.0.1(next@14.0.3)(react@18.2.0)(uploadthing@6.0.1)
   '@upstash/redis':
     specifier: 1.25.1
     version: 1.25.1
@@ -1484,8 +1484,8 @@ packages:
     resolution: {integrity: sha512-ZUo1JHOPPMZDsUw1mOhhVDIvJGlsjj6T0xJ/YJtulyJwL43S9B5pxg1cHcRuTEgjaxj7B55jiqQ6r9mDrrjH9A==}
     dev: false
 
-  /@uploadthing/react@6.0.0(next@14.0.3)(react@18.2.0)(uploadthing@6.0.1):
-    resolution: {integrity: sha512-s+6crwgoXRY9opip7S3g6iV1dIR2uMedXjlfQfMRM6GkVUmwHp8hkjtutpcnsdm37SukjubWuaAlqbUAmxYB5g==}
+  /@uploadthing/react@6.0.1(next@14.0.3)(react@18.2.0)(uploadthing@6.0.1):
+    resolution: {integrity: sha512-IJHAdEYV66QXvd3/GMQaWr7ZJncZAVWvBhxg9UhE/b3qn651aJWnHBPgo2Q7W9R4t3ITua+/5cN7n0EpP00dhg==}
     peerDependencies:
       next: 14.0.1
       react: ^17.0.2 || ^18.0.0
@@ -1494,7 +1494,7 @@ packages:
       next:
         optional: true
     dependencies:
-      '@uploadthing/shared': 6.0.0(@uploadthing/mime-types@0.2.2)
+      '@uploadthing/shared': 6.0.1
       attr-accept: 2.2.2
       file-selector: 0.6.0
       next: 14.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -1514,6 +1514,15 @@ packages:
         optional: true
     dependencies:
       '@uploadthing/mime-types': 0.2.2
+    dev: false
+
+  /@uploadthing/shared@6.0.1:
+    resolution: {integrity: sha512-ZdeTj77MU1zi5mhLzlYa5jUCUxXJqK4+sd9lgZZ6pIWN9tK5Xs0MptF3orqZH/RzIir6aqpsI9OaSd/BamHDxQ==}
+    peerDependencies:
+      '@uploadthing/mime-types': ^0.2.2
+    peerDependenciesMeta:
+      '@uploadthing/mime-types':
+        optional: true
     dev: false
 
   /@upstash/redis@1.25.1:
