@@ -84,8 +84,8 @@ dependencies:
     specifier: 6.0.2
     version: 6.0.2(next@14.0.4)(react@18.2.0)(uploadthing@6.0.4)
   '@upstash/redis':
-    specifier: 1.25.1
-    version: 1.25.1
+    specifier: 1.27.1
+    version: 1.27.1
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.32)
@@ -1733,8 +1733,8 @@ packages:
       '@uploadthing/mime-types': 0.2.2
     dev: false
 
-  /@upstash/redis@1.25.1:
-    resolution: {integrity: sha512-ACj0GhJ4qrQyBshwFgPod6XufVEfKX2wcaihsEvSdLYnY+m+pa13kGt1RXm/yTHKf4TQi/Dy2A8z/y6WUEOmlg==}
+  /@upstash/redis@1.27.1:
+    resolution: {integrity: sha512-K9UgTBypJ4Dx65s2u5auoyf/5YoCQjaN91QtxlkNg+3g0rqXXy4ELtzACstk1v+bTa547Mm3rzTjotDX/s9+Zg==}
     dependencies:
       crypto-js: 4.2.0
     dev: false
