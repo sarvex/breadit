@@ -35,7 +35,7 @@
     "@types/node": "20.11.9",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
-    "@uploadthing/react": "6.1.0",
+    "@uploadthing/react": "6.2.2",
     "@upstash/redis": "1.28.2",
     "autoprefixer": "10.4.17",
     "axios": "1.6.7",
