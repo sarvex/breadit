@@ -36,7 +36,7 @@
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.18",
     "@uploadthing/react": "6.2.2",
-    "@upstash/redis": "1.28.2",
+    "@upstash/redis": "1.29.0",
     "autoprefixer": "10.4.17",
     "axios": "1.6.7",
     "class-variance-authority": "0.7.0",
