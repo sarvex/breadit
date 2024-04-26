@@ -84,8 +84,8 @@ dependencies:
     specifier: 6.5.0
     version: 6.5.0(fast-check@3.17.2)(next@14.1.0)(react@18.3.0)(uploadthing@6.3.3)
   '@upstash/redis':
-    specifier: 1.28.2
-    version: 1.28.2
+    specifier: 1.30.0
+    version: 1.30.0
   autoprefixer:
     specifier: 10.4.19
     version: 10.4.19(postcss@8.4.38)
@@ -1798,8 +1798,8 @@ packages:
       - fast-check
     dev: false
 
-  /@upstash/redis@1.28.2:
-    resolution: {integrity: sha512-e4HmmCji6kE6UnriU92sAVGLQcRYAB4fXSPXls08cjW7zdE/wFaDfhAGi1/T4/wUN50bAy/lpHwW4bMkI2EAcw==}
+  /@upstash/redis@1.30.0:
+    resolution: {integrity: sha512-bkxl2n7qls27hONXNyItM6ccRT0NBJ8c6zl83wx+TlODpYXehgeiUJTkcTaXLp7hk+zy6Mqpzpeo3GX+wZSvBw==}
     dependencies:
       crypto-js: 4.2.0
     dev: false
