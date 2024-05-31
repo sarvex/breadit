@@ -39,8 +39,8 @@ dependencies:
     specifier: 3.4.2
     version: 3.4.2(react-hook-form@7.51.5)
   '@mantine/hooks':
-    specifier: 7.10.0
-    version: 7.10.0(react@18.3.1)
+    specifier: 7.10.1
+    version: 7.10.1(react@18.3.1)
   '@next-auth/prisma-adapter':
     specifier: 1.0.7
     version: 1.0.7(@prisma/client@5.14.0)(next-auth@4.24.7)
@@ -72,8 +72,8 @@ dependencies:
     specifier: 5.40.0
     version: 5.40.0(react@18.3.1)
   '@types/node':
-    specifier: 20.12.12
-    version: 20.12.12
+    specifier: 20.12.13
+    version: 20.12.13
   '@types/react':
     specifier: 18.3.3
     version: 18.3.3
@@ -634,8 +634,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@mantine/hooks@7.10.0(react@18.3.1):
-    resolution: {integrity: sha512-fnalwYS2WQEFS4wmhmAetDZ/VdJPLNeUXPX9t+S21o3p/dRTX1xhU2mS7yWaQUKM0hPD1TcujqXGlP2M2g/A9A==}
+  /@mantine/hooks@7.10.1(react@18.3.1):
+    resolution: {integrity: sha512-0EH9WBWUdtQLGU3Ak+csQ77EtUxI6pPNfwZdRJQWcaA3f8SFOLo9h9CGxiikFExerhvuCeUlaTf3s+TB9Op/rw==}
     peerDependencies:
       react: ^18.2.0
     dependencies:
@@ -1498,8 +1498,8 @@ packages:
     resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
     dev: true
 
-  /@types/node@20.12.12:
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+  /@types/node@20.12.13:
+    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
     dependencies:
       undici-types: 5.26.5
     dev: false
