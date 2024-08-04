@@ -82,7 +82,7 @@ dependencies:
     version: 18.3.0
   '@uploadthing/react':
     specifier: 6.6.0
-    version: 6.6.0(next@14.2.5)(react@18.3.1)(uploadthing@6.12.0)
+    version: 6.6.0(next@14.2.5)(react@18.3.1)(uploadthing@6.13.2)
   '@upstash/redis':
     specifier: 1.31.3
     version: 1.31.3
@@ -168,8 +168,8 @@ dependencies:
     specifier: 5.4.5
     version: 5.4.5
   uploadthing:
-    specifier: 6.12.0
-    version: 6.12.0(next@14.2.5)(tailwindcss@3.4.7)
+    specifier: 6.13.2
+    version: 6.13.2(next@14.2.5)(tailwindcss@3.4.7)
   zod:
     specifier: 3.23.8
     version: 3.23.8
@@ -298,14 +298,13 @@ packages:
       '@codexteam/icons': 0.0.6
     dev: false
 
-  /@effect/schema@0.66.14(effect@3.1.2)(fast-check@3.18.0):
-    resolution: {integrity: sha512-2Yc6gnXpcMmwQnbU2JUwDl0ckeOJmFZzteXn2jjVWuNi9PGv+jp2yK7jxv0pALcieuYwdR5tKkCRI7STuhEwfg==}
+  /@effect/schema@0.68.12(effect@3.4.5):
+    resolution: {integrity: sha512-UWJsFXzeYTBQYnftwI1KR2uaxIZ8fk+kffDS7BnJwnGjPPgODq3/AzeoBDSu1MAlnwBKOz+QRdMuSMxrT/pHig==}
     peerDependencies:
-      effect: ^3.1.2
-      fast-check: ^3.13.2
+      effect: ^3.4.5
     dependencies:
-      effect: 3.1.2
-      fast-check: 3.18.0
+      effect: 3.4.5
+      fast-check: 3.20.0
     dev: false
 
   /@emnapi/runtime@1.1.1:
@@ -1616,7 +1615,7 @@ packages:
     resolution: {integrity: sha512-kz3F0oEgAyts25NAGXlUBCWh3mXonbSOQJFGFMawHuIgbUbnzXbe4w5WI+0XdneCbjNmikfWrdWrs8m/7HATfQ==}
     dev: false
 
-  /@uploadthing/react@6.6.0(next@14.2.5)(react@18.3.1)(uploadthing@6.12.0):
+  /@uploadthing/react@6.6.0(next@14.2.5)(react@18.3.1)(uploadthing@6.13.2):
     resolution: {integrity: sha512-jLN4Oy21d0n8F6CNPl9qjEu0/Q1rnddSxny/02Lm89L/sYuR4RXfk1vBgBGPAGXBak0BO9z5eEmYURLrXXUAJQ==}
     peerDependencies:
       next: '*'
@@ -1632,7 +1631,7 @@ packages:
       next: 14.2.5(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       tailwind-merge: 2.3.0
-      uploadthing: 6.12.0(next@14.2.5)(tailwindcss@3.4.7)
+      uploadthing: 6.13.2(next@14.2.5)(tailwindcss@3.4.7)
     transitivePeerDependencies:
       - solid-js
       - svelte
@@ -1644,6 +1643,14 @@ packages:
     dependencies:
       '@uploadthing/mime-types': 0.2.10
       effect: 3.1.2
+      std-env: 3.7.0
+    dev: false
+
+  /@uploadthing/shared@6.7.8:
+    resolution: {integrity: sha512-dLNa9GpdeiCHc/Nd0+BfaJ3wXvWIztBAaWIsNNPoaKiU3qhHoQd+5jDVx4oYKYVANqnv9s2CJW7di8Th5xy7Cw==}
+    dependencies:
+      '@uploadthing/mime-types': 0.2.10
+      effect: 3.4.5
       std-env: 3.7.0
     dev: false
 
@@ -2248,6 +2255,10 @@ packages:
     resolution: {integrity: sha512-XakSWck6w6ROqKyEys0tKE9K6Gx2p8W/09u2ZTEZZrneO5Z3QEdPhXzWTyC73kD5zUvfJinZLVIas8I1xoHaTg==}
     dev: false
 
+  /effect@3.4.5:
+    resolution: {integrity: sha512-aTonOH68tUttSdYwMkiuky3hjgn3pu7yInNaE8rU2EDKQ8zr9Me78WcvWBQKe4u1gvbBH77y9dAKqn98lNIfNQ==}
+    dev: false
+
   /electron-to-chromium@1.4.749:
     resolution: {integrity: sha512-LRMMrM9ITOvue0PoBrvNIraVmuDbJV5QC9ierz/z5VilMdPOVMjOtpICNld3PuXuTZ3CHH/UPxX9gHhAPwi+0Q==}
     dev: false
@@ -2678,8 +2689,8 @@ packages:
       strip-final-newline: 3.0.0
     dev: false
 
-  /fast-check@3.18.0:
-    resolution: {integrity: sha512-/951xaT0kA40w0GXRsZXEwSTE7LugjZtSA/8vPgFkiPQ8wNp8tRvqWuNDHBgLxJYXtsK11e/7Q4ObkKW5BdTFQ==}
+  /fast-check@3.20.0:
+    resolution: {integrity: sha512-pZIjqLpOZgdSLecec4GKC3Zq5702MZ34upMKxojnNVSWA0K64V3pXOBT1Wdsrc3AphLtzRBbsi8bRWF4TUGmUg==}
     engines: {node: '>=8.0.0'}
     dependencies:
       pure-rand: 6.1.0
@@ -4663,16 +4674,19 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /uploadthing@6.12.0(next@14.2.5)(tailwindcss@3.4.7):
-    resolution: {integrity: sha512-uoWG1riH6z2IHCcbMo3xnGe6p/+sx2PPOOLOsk5DeqGv5HtlY7ISauFFRXW8H+jdhevZm1n/j4Je/Z+bbIziSg==}
+  /uploadthing@6.13.2(next@14.2.5)(tailwindcss@3.4.7):
+    resolution: {integrity: sha512-hrxwOgqKs8siczPloop72drRBiUYaFDHMp45OR/sSAaAbOPyGBmBL88Bi4UWCvgC+aBWCLRxtMEGeoqrfu+OMg==}
     engines: {node: '>=18.13.0'}
     peerDependencies:
+      '@effect/platform': '*'
       express: '*'
       fastify: '*'
       h3: '*'
       next: '*'
       tailwindcss: '*'
     peerDependenciesMeta:
+      '@effect/platform':
+        optional: true
       express:
         optional: true
       fastify:
@@ -4684,12 +4698,11 @@ packages:
       tailwindcss:
         optional: true
     dependencies:
-      '@effect/schema': 0.66.14(effect@3.1.2)(fast-check@3.18.0)
+      '@effect/schema': 0.68.12(effect@3.4.5)
       '@uploadthing/mime-types': 0.2.10
-      '@uploadthing/shared': 6.7.5
+      '@uploadthing/shared': 6.7.8
       consola: 3.2.3
-      effect: 3.1.2
-      fast-check: 3.18.0
+      effect: 3.4.5
       next: 14.2.5(react-dom@18.3.1)(react@18.3.1)
       std-env: 3.7.0
       tailwindcss: 3.4.7
