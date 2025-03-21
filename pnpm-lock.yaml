@@ -67,10 +67,10 @@ importers:
         version: 1.2.6(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tailwindcss/forms':
         specifier: 0.5.10
-        version: 0.5.10(tailwindcss@4.0.14)
+        version: 0.5.10(tailwindcss@4.0.15)
       '@tailwindcss/typography':
         specifier: 0.5.16
-        version: 0.5.16(tailwindcss@4.0.14)
+        version: 0.5.16(tailwindcss@4.0.15)
       '@tanstack/react-query':
         specifier: 5.69.0
         version: 5.69.0(react@18.3.1)
@@ -85,7 +85,7 @@ importers:
         version: 18.3.5(@types/react@18.3.18)
       '@uploadthing/react':
         specifier: 7.3.0
-        version: 7.3.0(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.14))
+        version: 7.3.0(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.15))
       '@upstash/redis':
         specifier: 1.34.5
         version: 1.34.5
@@ -93,8 +93,8 @@ importers:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.5.3)
       axios:
-        specifier: 1.8.3
-        version: 1.8.3
+        specifier: 1.8.4
+        version: 1.8.4
       class-variance-authority:
         specifier: 0.7.1
         version: 0.7.1
@@ -162,17 +162,17 @@ importers:
         specifier: 3.0.2
         version: 3.0.2
       tailwindcss:
-        specifier: 4.0.14
-        version: 4.0.14
+        specifier: 4.0.15
+        version: 4.0.15
       tailwindcss-animate:
         specifier: 1.0.7
-        version: 1.0.7(tailwindcss@4.0.14)
+        version: 1.0.7(tailwindcss@4.0.15)
       typescript:
         specifier: 5.8.2
         version: 5.8.2
       uploadthing:
         specifier: 7.5.2
-        version: 7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.14)
+        version: 7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.15)
       zod:
         specifier: 3.24.2
         version: 3.24.2
@@ -1118,8 +1118,8 @@ packages:
     resolution: {integrity: sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==}
     engines: {node: '>=4'}
 
-  axios@1.8.3:
-    resolution: {integrity: sha512-iP4DebzoNlP/YN2dpwCgb8zoCmhtkajzS48JvwmkSkXvPI3DHc7m+XYL5tGnSlJtR6nImXZmdCuN5aP8dh1d8A==}
+  axios@1.8.4:
+    resolution: {integrity: sha512-eBSYY4Y68NNlHbHBMdeDmKNtDgXWhQsJcGqzO3iLUM0GraQFSS9cVgPX5I9b3lbdFKyYoAEGAZF1DwhTaljNAw==}
 
   axobject-query@3.2.1:
     resolution: {integrity: sha512-jsyHu61e6N4Vbz/v18DHwWYKK0bSWLqn47eeDSKPB7m8tqMHF9YJ+mhIk2lVteyZrY8tnSj/jHOv4YiTCuCJgg==}
@@ -2439,8 +2439,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
-  tailwindcss@4.0.14:
-    resolution: {integrity: sha512-92YT2dpt671tFiHH/e1ok9D987N9fHD5VWoly1CdPD/Cd1HMglvZwP3nx2yTj2lbXDAHt8QssZkxTLCCTNL+xw==}
+  tailwindcss@4.0.15:
+    resolution: {integrity: sha512-6ZMg+hHdMJpjpeCCFasX7K+U615U9D+7k5/cDK/iRwl6GptF24+I/AbKgOnXhVKePzrEyIXutLv36n4cRsq3Sg==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -3264,18 +3264,18 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tailwindcss/forms@0.5.10(tailwindcss@4.0.14)':
+  '@tailwindcss/forms@0.5.10(tailwindcss@4.0.15)':
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 4.0.14
+      tailwindcss: 4.0.15
 
-  '@tailwindcss/typography@0.5.16(tailwindcss@4.0.14)':
+  '@tailwindcss/typography@0.5.16(tailwindcss@4.0.15)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 4.0.14
+      tailwindcss: 4.0.15
 
   '@tanstack/query-core@5.69.0': {}
 
@@ -3418,12 +3418,12 @@ snapshots:
 
   '@uploadthing/mime-types@0.3.4': {}
 
-  '@uploadthing/react@7.3.0(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.14))':
+  '@uploadthing/react@7.3.0(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.15))':
     dependencies:
       '@uploadthing/shared': 7.1.7
       file-selector: 0.6.0
       react: 18.3.1
-      uploadthing: 7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.14)
+      uploadthing: 7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.15)
     optionalDependencies:
       next: 15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
@@ -3549,7 +3549,7 @@ snapshots:
 
   axe-core@4.7.2: {}
 
-  axios@1.8.3:
+  axios@1.8.4:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -5009,11 +5009,11 @@ snapshots:
 
   tailwind-merge@3.0.2: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.0.14):
+  tailwindcss-animate@1.0.7(tailwindcss@4.0.15):
     dependencies:
-      tailwindcss: 4.0.14
+      tailwindcss: 4.0.15
 
-  tailwindcss@4.0.14: {}
+  tailwindcss@4.0.15: {}
 
   tapable@2.2.1: {}
 
@@ -5095,7 +5095,7 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  uploadthing@7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.14):
+  uploadthing@7.5.2(next@15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@4.0.15):
     dependencies:
       '@effect/platform': 0.72.0(effect@3.12.0)
       '@standard-schema/spec': 1.0.0-beta.4
@@ -5104,7 +5104,7 @@ snapshots:
       effect: 3.12.0
     optionalDependencies:
       next: 15.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tailwindcss: 4.0.14
+      tailwindcss: 4.0.15
 
   uri-js@4.4.1:
     dependencies:
