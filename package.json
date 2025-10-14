@@ -64,7 +64,7 @@
     "tailwindcss": "4.1.14",
     "tailwindcss-animate": "1.0.7",
     "typescript": "5.9.3",
-    "uploadthing": "7.6.0",
+    "uploadthing": "7.7.4",
     "zod": "3.24.3"
   },
   "devDependencies": {
