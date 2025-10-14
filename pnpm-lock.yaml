@@ -12,8 +12,8 @@ importers:
         specifier: 2.9.3
         version: 2.9.3
       '@editorjs/editorjs':
-        specifier: 2.30.8
-        version: 2.30.8
+        specifier: 2.31.0
+        version: 2.31.0
       '@editorjs/embed':
         specifier: 2.7.6
         version: 2.7.6
@@ -210,17 +210,26 @@ packages:
   '@codexteam/icons@0.3.2':
     resolution: {integrity: sha512-P1ep2fHoy0tv4wx85eic+uee5plDnZQ1Qa6gDfv7eHPkCXorMtVqJhzMb75o1izogh6G7380PqmFDXV3bW3Pig==}
 
+  '@editorjs/caret@1.0.3':
+    resolution: {integrity: sha512-VmgwQJZgL/LQjk049JunzRV1YCa0vDi+BNEpbDmr5cp3lGZllq9QQFO1eI71ZPzvFVn3vvhb+eOif4sAEyGgbw==}
+
   '@editorjs/code@2.9.3':
     resolution: {integrity: sha512-nXUrK3CjhpubvShYtcbkpZ9SU15IYwmJOsWZrlWYSzy9unZBRQthii6eABndsCtODzzV0yiSKmTp00RQkFow3Q==}
 
-  '@editorjs/editorjs@2.30.8':
-    resolution: {integrity: sha512-ClFuxI1qZTfXPJTacQfsJtOUP6bKoIe6BQNdAvGsDTDVwMnZEzoaSOwvUpdZEE56xppVfQueNK/1MElV9SJKHg==}
+  '@editorjs/dom@1.0.1':
+    resolution: {integrity: sha512-yLO+86MYOIUr1Jl7SQw23SYT84ggv6aJW0EIRsI3NTHYgnQzmK7Bt2n5ZFupQlB0GJqmKqA5tCue3NKQb+o7Pw==}
+
+  '@editorjs/editorjs@2.31.0':
+    resolution: {integrity: sha512-CBcIZXtPlg0dSlC5clO9OfTCmcxelj723jd4d67teFlaFJobjjxU1PmMxFJdhaRep5+nqdD0jr+fdJBqEDqt1g==}
 
   '@editorjs/embed@2.7.6':
     resolution: {integrity: sha512-L3agW/23mOI0L+oksUE9UOR5VSNCqapxLH5lma+5j+idjKCC31nxbx07x53MSJ4rlOTO1L7cFVhkqptEdOliJA==}
 
   '@editorjs/header@2.8.8':
     resolution: {integrity: sha512-bsMSs34u2hoi0UBuRoc5EGWXIFzJiwYgkFUYQGVm63y5FU+s8zPBmVx5Ip2sw1xgs0fqfDROqmteMvvmbCy62w==}
+
+  '@editorjs/helpers@1.0.1':
+    resolution: {integrity: sha512-Lmr8ImoQvoROXtzhsIJsA1ZtXzH46DmE6O8hMjn9/AvQq62UfjREjn+Ewi6KxjIZMay2PsgDEbLlsVyNJGEaxw==}
 
   '@editorjs/image@2.10.3':
     resolution: {integrity: sha512-ekCsGICZOIdghF/U2T34H7CItqaWAoJDXbkRD+x8l/LIo/7Ozf7KovYm21qz+CluArgV4RurVFHqwlz+O0vfJA==}
@@ -1537,6 +1546,12 @@ packages:
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
       react-dom: ^18 || ^19 || ^19.0.0-rc
+
+  codex-notifier@1.1.2:
+    resolution: {integrity: sha512-DCp6xe/LGueJ1N5sXEwcBc3r3PyVkEEDNWCVigfvywAkeXcZMk9K41a31tkEFBW0Ptlwji6/JlAb49E3Yrxbtg==}
+
+  codex-tooltip@1.0.5:
+    resolution: {integrity: sha512-IuA8LeyLU5p1B+HyhOsqR6oxyFQ11k3i9e9aXw40CrHFTRO2Y1npNBVU3W1SvhKAbUU7R/YikUBdcYFP0RcJag==}
 
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -3028,20 +3043,34 @@ snapshots:
 
   '@codexteam/icons@0.3.2': {}
 
+  '@editorjs/caret@1.0.3':
+    dependencies:
+      '@editorjs/dom': 1.0.1
+
   '@editorjs/code@2.9.3':
     dependencies:
       '@codexteam/icons': 0.3.2
 
-  '@editorjs/editorjs@2.30.8': {}
+  '@editorjs/dom@1.0.1':
+    dependencies:
+      '@editorjs/helpers': 1.0.1
+
+  '@editorjs/editorjs@2.31.0':
+    dependencies:
+      '@editorjs/caret': 1.0.3
+      codex-notifier: 1.1.2
+      codex-tooltip: 1.0.5
 
   '@editorjs/embed@2.7.6':
     dependencies:
-      '@editorjs/editorjs': 2.30.8
+      '@editorjs/editorjs': 2.31.0
 
   '@editorjs/header@2.8.8':
     dependencies:
       '@codexteam/icons': 0.0.5
-      '@editorjs/editorjs': 2.30.8
+      '@editorjs/editorjs': 2.31.0
+
+  '@editorjs/helpers@1.0.1': {}
 
   '@editorjs/image@2.10.3':
     dependencies:
@@ -4245,6 +4274,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
+
+  codex-notifier@1.1.2: {}
+
+  codex-tooltip@1.0.5: {}
 
   color-convert@2.0.1:
     dependencies:
