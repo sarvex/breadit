@@ -42,8 +42,8 @@ importers:
         specifier: 5.2.2
         version: 5.2.2(react-hook-form@7.56.2(react@19.1.0))
       '@mantine/hooks':
-        specifier: 7.17.8
-        version: 7.17.8(react@19.1.0)
+        specifier: 8.3.5
+        version: 8.3.5(react@19.1.0)
       '@next-auth/prisma-adapter':
         specifier: 1.0.7
         version: 1.0.7(@prisma/client@6.5.0(prisma@6.5.0(typescript@5.9.3))(typescript@5.9.3))(next-auth@4.24.11(next@15.5.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
@@ -614,8 +614,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@mantine/hooks@7.17.8':
-    resolution: {integrity: sha512-96qygbkTjRhdkzd5HDU8fMziemN/h758/EwrFu7TlWrEP10Vw076u+Ap/sG6OT4RGPZYYoHrTlT+mkCZblWHuw==}
+  '@mantine/hooks@8.3.5':
+    resolution: {integrity: sha512-0Wf08eWLKi3WkKlxnV1W5vfuN6wcvAV2VbhQlOy0R9nrWorGTtonQF6qqBE3PnJFYF1/ZE+HkYZQ/Dr7DmYSMQ==}
     peerDependencies:
       react: ^18.x || ^19.x
 
@@ -3390,7 +3390,7 @@ snapshots:
   '@img/sharp-win32-x64@0.34.4':
     optional: true
 
-  '@mantine/hooks@7.17.8(react@19.1.0)':
+  '@mantine/hooks@8.3.5(react@19.1.0)':
     dependencies:
       react: 19.1.0
 
